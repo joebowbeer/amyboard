@@ -6,10 +6,10 @@ import amy, midi
 
 # (0-indexed from patches list)
 # Patch 24 = "A41 Bass clarinet"
-# Patch 25 = "A42 French Horn"
+# Patch 25 = "A42 English Horn"
 # Patch 97 = "B62 Clarinet"
 # Monophonic EWI playing style
-PATCH = 25 # A42 French Horn (Juno patch)
+PATCH = 25 # A42 English Horn (Juno patch)
 
 amy.send(synth=1, num_voices=1, patch=PATCH)
 amy.send(synth=1, grab_midi_notes=0)
